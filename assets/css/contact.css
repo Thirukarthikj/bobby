@@ -1074,8 +1074,8 @@ textarea {
   /* margin: -100px 0 0 -50px; */
   top:83px;
   left: -367px;
-  padding: 40px;
-  padding-right: 40px;
+  /* padding: 40px; */
+  /* padding-right: 40px; */
   border: none;
   /* padding-left: 55px; */
   font-family: "Manrope", sans-serif;
@@ -1105,7 +1105,7 @@ textarea {
   text-align: center;
   /* padding: 10px; */
   font-size: 22px;
-  padding-right: 20px;
+  /* padding-right: 20px; */
   /* border:0.1px solid rgba(255, 255, 255, 0.375); */
   width: 400px;
   height: 40px;
