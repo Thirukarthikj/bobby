@@ -1038,7 +1038,7 @@
     letter-spacing: 2px;
     text-transform: capitalize;
     line-height: 25px;
-    text-align: justify;
+    text-align:center;
     font-family: "Lato", sans-serif;
   }
 
