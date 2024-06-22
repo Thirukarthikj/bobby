@@ -4,8 +4,10 @@
     box-sizing: border-box;   
    }
    body{
-       margin: 0;
-       padding: 0;
+    width: 100vw;
+    height: 100vh;
+       /* margin: 0;
+       padding: 0; */
        overflow-x: hidden;
       position: absolute;
    }
@@ -1253,15 +1255,16 @@
 }
 @media screen and (max-width:600px) {
 
-
   *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;   
    }
    body{
-       margin: 0;
-       padding: 0;
+    width: 100vw;
+    height: 100vh;
+       /* margin: 0;
+       padding: 0; */
        overflow-x: hidden;
       position: absolute;
    }
@@ -1603,7 +1606,7 @@
     justify-content: center;
    }
    .subdiv22{
-    height:100%;
+    height: 100%;
     width: 100%;
     /* background-color: aliceblue; */
    }
@@ -1627,16 +1630,14 @@
     justify-content: center;
   }
   .headdy p{
-    /* display: none; */
-    height:10px;
-    width:70px;
+    height:5px;
+    width: 10%;
     background-color: #f58320;
     /* margin-right: 5px; */
   }
   .headdy h1{
-    padding-right: 50px;
     color:#424242;
-    font-size: 100px;
+    font-size: 32px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
   .connty{
@@ -1644,25 +1645,20 @@
     width: 100%;
     /* background-color: aqua; */
     display: flex;
-    padding: 20px;
-    overflow: hidden;
-    align-items:center;
+    align-items: center;
     flex-direction: column;
     justify-content: center;
   }
   .connty h1{
-    font-size: 40px;
+    font-size: 25px;
     font-weight: 300;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
   .connty p{
-    margin-top: 0px;
     padding-top: 20px;
     letter-spacing: 2px;
     text-transform: capitalize;
-    line-height: 75px;
-    font-size: 55px;
-    margin-top: 50px;
+    line-height: 25px;
     text-align: justify;
     font-family: "Lato", sans-serif;
   }
@@ -1670,15 +1666,12 @@
     color: blue;
     text-decoration: none;
     padding-top: 20px;
-    font-size: 45px;
-    margin-top: 30px;
+    margin-bottom: 30px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   
   }
   .cardi{
-    padding: 20px;
-    margin-top: 100px;
-    height:100%;
+    height:80px;
     width: 100%;
     background-color:white;
     display: flex;
@@ -1714,7 +1707,7 @@
   }
   .cardi22 i{
     color:#f58320;
-    font-size: 105px;
+    font-size: 30px;
     /* font-weight: 400; */
   }
   .cardi23{
@@ -1727,13 +1720,14 @@
     justify-content: center;
   }
   .cardi23 h2{
-    font-size: 52px;
+    font-size: 16px;
     font-weight: 350;
     font-family: "Lato", sans-serif;
     color: black;
   }
   .topheading{
-    height: auto;
+    overflow: hidden;
+    height: 250px;
     width: 100%;
     background-color: white;
     /* background-color:pink; */
@@ -1741,7 +1735,6 @@
     flex-direction: column;
     align-items:center;
     justify-content: center;
-    margin-bottom: 100px;
   }
   .topheadingsub1{
     height: 30%;
@@ -1749,30 +1742,27 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* margin-top: 30px; */
     /* background-color: rebeccapurple; */
   }
   .topheadingsub1 span{
     color:#f58320;
-    font-size: 100px;
+    font-size: 32px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   
   }
   .topheadingsub1 p{
-    display: none;
-    height: 4%;
-    width: 5%;
+    height: 5px;
+    width: 10%;
     /* margin-left: 70px; */
     background-color: #f58320;
-    /* margin-right: 5px; */
+    margin-right: 5px;
   }
   .topheadingsub1 h1{
     color:#424242;
-    font-size: 100px;
+    font-size: 32px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
   .topheadingsub{
-    margin-top: 30px;
     height: 20%;
     width: 100%;
     display: flex;
@@ -1781,14 +1771,14 @@
     /* background-color: #1248c5; */
   }
   .topheadingsub p{
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-transform: capitalize;
     line-height: 25px;
-    text-align: justify;
-    font-size: 40px;
+    text-align: center;
     font-family: "Lato", sans-serif;
   }
   .minicontain{
+    overflow: hidden;
     height: auto;
     width: 100%;
     padding: 20px;
@@ -1800,13 +1790,12 @@
     /* background-color: #424242; */
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    grid-row-gap: 50px;
     place-items: center;
   }
   .card{
-    margin-bottom: 40px;
-    height:1600px;
-       width:1300px;
+    margin-bottom:50px;
+    height:450px;
+    width: 350px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   
     /* box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px; */
@@ -1849,26 +1838,24 @@
     color: #424242;
     /* margin-bottom: 1px solid red; */
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-size: 95px;
+    font-size: 20px;
     transition: 1.2s ease-in;
   }
   .c2 p{
     background-color:rgba(128, 128, 128, 0.299);
     width: 100%;
-    margin-top: 60px;
-    /* font-size: 55px; */
+    margin-top: 20px;
     height:1.3px;
   }
   #te{  
-    /* margin-top: 100px; */
     background-color: #f2f2f2;
-    margin-top: 100px;
-    font-size: 55px;
+    margin-top: 30px;
+    font-size: 15px;
     text-align: justify;
     font-family: "Lato", sans-serif;
   }
   .contact{
-    height: 400px;
+    height:400px;
     width: 100%;
     background-image: url(../img/mach.webp);
     background-position:center;
@@ -1899,8 +1886,9 @@
 }
 .subccon h1{
     /* font-family:Arial, sans-serif; */
-    font-size: 38px;
+    font-size: 32px;
     color:rgb(222, 218, 218);
+    text-align: center;
     font-family: "Poppins", sans-serif;
 }
 .subccon p{
@@ -1927,19 +1915,21 @@
   color: rgba(255, 255, 255, 0.734);
 }
 .nexdiv{
-  height: 800px;
+  overflow:hidden;
+  height:auto;
   width: 100%;
   /* background-color: #1248c5; */
   background-color: white;
   position:relative;
   padding: 20px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 .subnextdiv{
   height: 100%;
-  width: 50%;
+  width: 100%;
   /* background-color: rebeccapurple; */
   /* display: flex; */
   /* align-items: center; */
@@ -1947,14 +1937,17 @@
   place-items: center;
   display: grid;
   grid-template-columns: repeat(2,1fr);
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
   overflow: hidden;
+  margin-bottom: 80px;
 }
 .cardg {
   /* position:absolute; */
   /* box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset; */
   transform: translate(-0%,-0%);
-  width: 300px;
-  height: 320px;
+  width: 180px;
+  height: 220px;
   background: #000;
   overflow: hidden;
   /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
@@ -2003,7 +1996,7 @@
   padding: 20px;
   text-align: center;
   background: white;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+  /* box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px; */
   /* box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset; */
   /* background: #f58320; */
   position: absolute;
@@ -2015,7 +2008,7 @@
   padding: 0;
   color: #ff3636;
   line-height: 20px;
-  font-size: 20px;
+  font-size: 16px;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
 }
@@ -2024,6 +2017,7 @@
   color: #262626;
 }
 .cardg .details .center p {
+  font-size: 14px;
   margin: 10px 0;
   padding: 0;
   font-family: "Lato", sans-serif;
@@ -2031,29 +2025,32 @@
 }
 .subnextdiv2{
   height: 100%;
-  width: 40%;
+  width: 100%;
   /* background-color: #e56d03; */
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .summa{
-  height: 100px;
+  /* display: none; */
+  height: 0px;
   width: 100%;
   background-color: white;
 }
 .dd{
-  height: 390px;
+  height:auto;
   width: 100%;
   padding: 20px;
   background-color:white;
   padding-bottom: 50px;
 }
 .dd1{
+  overflow: hidden;
   height: 100%;
   width: 100%;
   background-color:white;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-around;
   font-family: 'Open Sans', sans-serif;
@@ -2071,6 +2068,7 @@
   max-width: 80%;
   padding: 2em 0;
   background: #FFF;
+  margin-bottom: 50px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
   border-radius: 10px;
@@ -2203,13 +2201,15 @@
 }
 .subcconn h1{
   /* font-family:Arial, sans-serif; */
-  font-size: 38px;
+  font-size: 32px;
+  text-align: center;
   color:rgb(222, 218, 218);
   font-family: "Poppins", sans-serif;
 }
 .subcconn p{
   /* font-size: 38px; */
   font-size: 15px;
+  text-align: center;
   color: rgb(207, 205, 205);
   font-family: "Poppins", sans-serif;
 }
@@ -2231,7 +2231,7 @@
   color: rgba(255, 255, 255, 0.734);
 }
 .summa{
-  height: 20px;
+  height: 15px;
   width: 100%;
   background-color:white;
   display: flex;
@@ -2242,13 +2242,13 @@
 }
 .summa p{
   height: 50%;
-  width: 0.6%;
+  width: 1.7%;
  border-radius: 100%;
  background-color: rgb(240, 59, 59);
 }
 #np1{
   height: 50%;
-  width: 0.6%;
+  width: 1.7%;
   border-radius: 100%;
   background-color: rgb(236, 190, 52);
   /* padding-left: 5px; */
@@ -2256,14 +2256,15 @@
 }
 #np2{
   height: 50%;
-  width: 0.6%;
+  width: 1.7%;
   border-radius: 100%;
   background-color: rgb(10, 141, 28);
   margin-left: 3px;
 }
 /* footer code */
 .footer{
-  height: 500px;
+  overflow: hidden  ;
+  height: auto;
   width: 100%;
   background-color: #000a30;
   /* background-color:rebeccapurple; */
@@ -2284,6 +2285,7 @@
   /* background-color: rgb(114, 55, 55); */
   display: flex;
   align-items: center;
+  flex-direction: column;
   justify-content: space-around   ;
 }
 .seconddiv{
@@ -2300,7 +2302,8 @@
 }
 .minicon{
   height: 100%;
-  width: 22%;
+  width: 100%;
+  margin-bottom:30px;
   /* background-color: darkgoldenrod; */
 }
 .imgg{
@@ -2325,7 +2328,7 @@
   /* transform: scale(0.4); */
 }
 .cons{
-  height: 30%;
+  height: 100%;
   width: 100%;
   /* background-color: bisque; */
   display: flex;
@@ -2358,6 +2361,7 @@
   color: #fff;
   display: block;
   font-size: 20px;
+  margin-top: 20px;
   font-weight: 700;
   font-family: 'Poppins', sans-serif;
   margin-bottom: 20px;
@@ -2399,6 +2403,7 @@
   font-family: "Poppins", sans-serif;
   letter-spacing: 1.2px;
   color:white;
+  margin-bottom: 20px;
 }
 .con3{
   height: 60%;
@@ -2484,7 +2489,7 @@
 }
 .copy{
   height: 100%;
-  width: 30%;
+  width: 100%;
   /* background-color: saddlebrown; */
   display: flex;
   align-items: center;
@@ -2501,27 +2506,30 @@
   color:rgb(26, 26, 165)
 }
 .copy1{
+  display: none;
   height: 100%;
-  width: 30%;
+  width: 0%;
   /* background-color: saddlebrown; */
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 .copy1 h2{
+  display: none;
   font-size: 14px;
   font-family: "Poppins", sans-serif;
   color:black;    
 }
 .copy2{
   height: 100%;
-  width: 25%;
+  width: 0%;
   display: flex;
   align-items: center;
   justify-content: flex-end;
   /* background-color: saddlebrown; */
 }
 .copy2 a{
+  display: none;
   font-size: 13px;
   font-family: "Manrope", sans-serif;
   color:rgb(23, 7, 143);   
@@ -2529,7 +2537,6 @@
   letter-spacing: 1.5px;
   padding-right: 10px;
 }
-
 
 
 
