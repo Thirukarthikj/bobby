@@ -20,6 +20,7 @@
     href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet" href="./assets/css/styles.css" />
+  <link rel="stylesheet" href="./assets/css/mtc-showcase.css" />
   <title>Bobby Packaging</title>
 </head>
 
@@ -67,6 +68,9 @@
           <a href="./product.html">
             <li>Products</li>
           </a>
+          <a href="./index.html#industries">
+            <li>Industries</li>
+          </a>
           <a href="./gallery.html">
             <li>Gallery</li>
           </a>
@@ -92,7 +96,9 @@
         <a class="item" href="./product.html">
           <div data-text="See our works" class="linktext">Products</div>
         </a>
-
+        <a class="item" href="./index.html#industries">
+          <div data-text="Industries" class="linktext">Industries</div>
+        </a>
         <a class="item" href="./gallery.html">
           <div data-text="Thoughts" class="linktext">Gallery</div>
         </a>
@@ -170,123 +176,330 @@
       </div>
     </div>
   </div>
-  <div class="topheading">
-    <div class="topheadingsub1">
-      <p></p>
-      <h1>What <span>We Offers</span></h1>
-      <!-- <p></p> -->
+  <!-- MTC Polymers Inspired Product Category Showcase Section -->
+  <section class="mtc-showcase-section" id="products">
+    <div class="mtc-container">
+      <div class="mtc-section-header">
+        <h2><b>Our</b> Products</h2>
+        <p>Explore our complete range of flexible packaging solutions, designed to meet the needs of different products and industries.</p>
+      </div>
+
+      <div class="mtc-plist">
+        <!-- 1. LD Bags -->
+        <a href="product.html?category=ld-bags" class="mtc-pgroup" data-category="ld-bags">
+          <div class="mtc-pimg">
+            <img src="./assets/img/ld_bread_cover_cutout.png" alt="LD Bags" width="260" height="240" loading="lazy">
+          </div>
+          <div class="mtc-pdesc">
+            <h3><b>LD</b> Bags</h3>
+            <span class="mtc-cbtn">
+              View Products
+              <i class="fa-solid fa-arrow-right"></i>
+            </span>
+          </div>
+        </a>
+
+        <!-- 2. HM Bags -->
+        <a href="product.html?category=hm-bags" class="mtc-pgroup" data-category="hm-bags">
+          <div class="mtc-pimg">
+            <img src="./assets/img/hm_bags_-removebg-preview.png" alt="HM Bags" width="260" height="240" loading="lazy">
+          </div>
+          <div class="mtc-pdesc">
+            <h3><b>HM</b> Bags</h3>
+            <span class="mtc-cbtn">
+              View Products
+              <i class="fa-solid fa-arrow-right"></i>
+            </span>
+          </div>
+        </a>
+
+        <!-- 3. PP Bags -->
+        <a href="product.html?category=pp-bags" class="mtc-pgroup" data-category="pp-bags">
+          <div class="mtc-pimg">
+            <img src="./assets/img/pp_bags-removebg-preview.png" alt="PP Bags" width="260" height="240" loading="lazy">
+          </div>
+          <div class="mtc-pdesc">
+            <h3><b>PP</b> Bags</h3>
+            <span class="mtc-cbtn">
+              View Products
+              <i class="fa-solid fa-arrow-right"></i>
+            </span>
+          </div>
+        </a>
+
+        <!-- 4. BOPP Bags -->
+        <a href="product.html?category=bopp-bags" class="mtc-pgroup" data-category="bopp-bags">
+          <div class="mtc-pimg">
+            <img src="./assets/img/bopp_bags-removebg-preview.png" alt="BOPP Bags" width="260" height="240" loading="lazy">
+          </div>
+          <div class="mtc-pdesc">
+            <h3><b>BOPP</b> Bags</h3>
+            <span class="mtc-cbtn">
+              View Products
+              <i class="fa-solid fa-arrow-right"></i>
+            </span>
+          </div>
+        </a>
+
+        <!-- 5. PET Pouches -->
+        <a href="product.html?category=pet-pouches" class="mtc-pgroup" data-category="pet-pouches">
+          <div class="mtc-pimg">
+            <img src="./assets/img/pet pouches.png" alt="PET Pouches" width="260" height="240" loading="lazy">
+          </div>
+          <div class="mtc-pdesc">
+            <h3><b>PET</b> Pouches</h3>
+            <span class="mtc-cbtn">
+              View Products
+              <i class="fa-solid fa-arrow-right"></i>
+            </span>
+          </div>
+        </a>
+
+        <!-- 6. PVC Pouches -->
+        <a href="product.html?category=pvc-pouches" class="mtc-pgroup" data-category="pvc-pouches">
+          <div class="mtc-pimg">
+            <img src="./assets/img/pvc-transparent-pouch-removebg-preview.png" alt="PVC Pouches" width="260" height="240" loading="lazy">
+          </div>
+          <div class="mtc-pdesc">
+            <h3><b>PVC</b> Pouches</h3>
+            <span class="mtc-cbtn">
+              View Products
+              <i class="fa-solid fa-arrow-right"></i>
+            </span>
+          </div>
+        </a>
+
+        <!-- 7. LD & Laminated Rolls -->
+        <a href="product.html?category=ld-roll" class="mtc-pgroup" data-category="ld-roll">
+          <div class="mtc-pimg">
+            <img src="./assets/img/ld_roll-removebg-preview.png" alt="LD & Laminated Rolls" width="260" height="240" loading="lazy">
+          </div>
+          <div class="mtc-pdesc">
+            <h3><b>LD & Laminated</b> Rolls</h3>
+            <span class="mtc-cbtn">
+              View Products
+              <i class="fa-solid fa-arrow-right"></i>
+            </span>
+          </div>
+        </a>
+
+        <!-- 8. Custom Printed Packaging -->
+        <a href="product.html?category=custom-printed" class="mtc-pgroup" data-category="custom-printed">
+          <div class="mtc-pimg">
+            <img src="./assets/img/custom_printed_milk_cutout.png" alt="Custom Printed Packaging" width="260" height="240" loading="lazy">
+          </div>
+          <div class="mtc-pdesc">
+            <h3><b>Custom Printed</b> Packaging</h3>
+            <span class="mtc-cbtn">
+              View Products
+              <i class="fa-solid fa-arrow-right"></i>
+            </span>
+          </div>
+        </a>
+      </div>
+
+      <!-- Reference Style "View All Products" CTA Button -->
+      <div class="mtc-bottom-cta">
+        <a href="product.html" class="mtc-btn-all">
+          View All Products
+          <i class="fa-solid fa-arrow-right-long"></i>
+        </a>
+      </div>
     </div>
-    <div class="topheadingsub">
-      <p>We are specialized in variety of Packing Bags & Speciality films</p>
+  </section>
+
+  <!-- MTC Polymers Inspired Industries We Serve / Products by Category Tabbed Showcase -->
+  <section class="mtc-industry-section" id="industries">
+    <div class="mtc-container">
+      <div class="mtc-section-header">
+        <h2><b>Industries</b> We Serve</h2>
+        <p>Discover how our flexible packaging solutions cater to specific product categories and manufacturing needs.</p>
+      </div>
+
+      <div class="mtc-ind-wrapper">
+        <!-- Tabs Navigation Row -->
+        <div class="mtc-ind-tabs-nav">
+          <button class="mtc-ind-tab-btn active" data-target="tab-food" type="button">Food</button>
+          <button class="mtc-ind-tab-btn" data-target="tab-snacks" type="button">Snacks</button>
+          <button class="mtc-ind-tab-btn" data-target="tab-garments" type="button">Garments</button>
+          <button class="mtc-ind-tab-btn" data-target="tab-agro" type="button">Agro & Industrial</button>
+          <button class="mtc-ind-tab-btn" data-target="tab-others" type="button">Others</button>
+        </div>
+
+        <!-- Industry Card Body -->
+        <div class="mtc-ind-card">
+          <!-- 1. FOOD TAB -->
+          <div class="mtc-ind-panel active" id="tab-food">
+            <div class="mtc-ind-info">
+              <h3>Food</h3>
+              <p>Food industry has changed tremendously based on consumer preferences and aspirations. This creates demanding requirements on packaging in terms of moisture barriers, integrity, shelf-life, and hygiene.</p>
+              <ul class="mtc-ind-list">
+                <li><span class="chevron"><i class="fa-solid fa-chevron-right"></i></span> Rice and Dhall Packaging</li>
+                <li><span class="chevron"><i class="fa-solid fa-chevron-right"></i></span> Atta & Maida Flour, Rava Bags</li>
+                <li><span class="chevron"><i class="fa-solid fa-chevron-right"></i></span> Bread & Bakery Packaging (LD Bags)</li>
+                <li><span class="chevron"><i class="fa-solid fa-chevron-right"></i></span> Salt & Grocery Packaging (HM Bags)</li>
+                <li><span class="chevron"><i class="fa-solid fa-chevron-right"></i></span> Milk & Dairy Liquid Pouches</li>
+                <li><span class="chevron"><i class="fa-solid fa-chevron-right"></i></span> Fruit Juices & Liquid Barrier Pouches</li>
+                <li><span class="chevron"><i class="fa-solid fa-chevron-right"></i></span> Spices, Masala & Seasoning Pouches</li>
+              </ul>
+              <a href="product.html?category=ld-bags" class="mtc-ind-btn">
+                View More <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+            <div class="mtc-ind-visual">
+              <div class="mtc-slider-container">
+                <img src="./assets/img/ld_bread_cover_cutout.png" alt="Bread Packaging" class="mtc-slider-img active" loading="lazy">
+                <img src="./assets/img/hm_bags_-removebg-preview.png" alt="Salt HM Bags" class="mtc-slider-img" loading="lazy">
+                <img src="./assets/img/custom_printed_milk_cutout.png" alt="Milk Dairy Packaging" class="mtc-slider-img" loading="lazy">
+                <img src="./assets/img/peacokc-removebg-preview.png" alt="Specialty Food Pouches" class="mtc-slider-img" loading="lazy">
+              </div>
+              <div class="mtc-slider-dots">
+                <button class="mtc-slider-dot active" type="button" aria-label="Slide 1"></button>
+                <button class="mtc-slider-dot" type="button" aria-label="Slide 2"></button>
+                <button class="mtc-slider-dot" type="button" aria-label="Slide 3"></button>
+                <button class="mtc-slider-dot" type="button" aria-label="Slide 4"></button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. SNACKS TAB -->
+          <div class="mtc-ind-panel" id="tab-snacks">
+            <div class="mtc-ind-info">
+              <h3>Snacks</h3>
+              <p>Aesthetic packaging plays a vital role in retail snacks. With customers looking for premium, fresh products, high-barrier printed pouches preserve crunchiness, protect aromas, and enhance shelf appeal.</p>
+              <ul class="mtc-ind-list">
+                <li><span class="chevron"><i class="fa-solid fa-chevron-right"></i></span> Savouries and Namkeen Packaging</li>
+                <li><span class="chevron"><i class="fa-solid fa-chevron-right"></i></span> Banana Chips & Potato Wafers</li>
+                <li><span class="chevron"><i class="fa-solid fa-chevron-right"></i></span> Murukku & Traditional Mixture Bags</li>
+                <li><span class="chevron"><i class="fa-solid fa-chevron-right"></i></span> Rusk & Biscuit Packaging Bags</li>
+                <li><span class="chevron"><i class="fa-solid fa-chevron-right"></i></span> Groundnut Chikki & Sweet Pouches</li>
+                <li><span class="chevron"><i class="fa-solid fa-chevron-right"></i></span> Extruded Snack Pouches</li>
+              </ul>
+              <a href="product.html?category=pp-bags" class="mtc-ind-btn">
+                View More <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+            <div class="mtc-ind-visual">
+              <div class="mtc-slider-container">
+                <img src="./assets/img/boppbag.png" alt="Snack Covers" class="mtc-slider-img active" loading="lazy">
+                <img src="./assets/img/boppbag2.png" alt="Namkeen Packaging" class="mtc-slider-img" loading="lazy">
+                <img src="./assets/img/pet pouches.png" alt="Barrier Pouches" class="mtc-slider-img" loading="lazy">
+                <img src="./assets/img/bopp_bags-removebg-preview.png" alt="Glossy Snack Packaging" class="mtc-slider-img" loading="lazy">
+              </div>
+              <div class="mtc-slider-dots">
+                <button class="mtc-slider-dot active" type="button" aria-label="Slide 1"></button>
+                <button class="mtc-slider-dot" type="button" aria-label="Slide 2"></button>
+                <button class="mtc-slider-dot" type="button" aria-label="Slide 3"></button>
+                <button class="mtc-slider-dot" type="button" aria-label="Slide 4"></button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3. GARMENTS TAB -->
+          <div class="mtc-ind-panel" id="tab-garments">
+            <div class="mtc-ind-info">
+              <h3>Garments</h3>
+              <p>If the garments industry is all about making people look better, our packaging is all about making those garments look stunning on retail shelves, with superior gloss, clarity, and protection.</p>
+              <ul class="mtc-ind-list">
+                <li><span class="chevron"><i class="fa-solid fa-chevron-right"></i></span> Shirt & Apparel Display Bags</li>
+                <li><span class="chevron"><i class="fa-solid fa-chevron-right"></i></span> Saree & Textile Packaging Bags</li>
+                <li><span class="chevron"><i class="fa-solid fa-chevron-right"></i></span> BOPP Self-Adhesive Clear Bags</li>
+                <li><span class="chevron"><i class="fa-solid fa-chevron-right"></i></span> Garment Bags with Hanger Holes</li>
+                <li><span class="chevron"><i class="fa-solid fa-chevron-right"></i></span> Innerwear & Hosiery Packaging</li>
+                <li><span class="chevron"><i class="fa-solid fa-chevron-right"></i></span> Soft PVC & LD Zippered Textile Bags</li>
+              </ul>
+              <a href="product.html?category=bopp-bags" class="mtc-ind-btn">
+                View More <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+            <div class="mtc-ind-visual">
+              <div class="mtc-slider-container">
+                <img src="./assets/img/bopp_bags-removebg-preview.png" alt="BOPP Garment Bags" class="mtc-slider-img active" loading="lazy">
+                <img src="./assets/img/pvc-transparent-pouch-removebg-preview.png" alt="Textile PVC Pouch" class="mtc-slider-img" loading="lazy">
+                <img src="./assets/img/pvcpouches.png" alt="Apparel Clear Bag" class="mtc-slider-img" loading="lazy">
+                <img src="./assets/img/pp_bags-removebg-preview.png" alt="PP Textile Bags" class="mtc-slider-img" loading="lazy">
+              </div>
+              <div class="mtc-slider-dots">
+                <button class="mtc-slider-dot active" type="button" aria-label="Slide 1"></button>
+                <button class="mtc-slider-dot" type="button" aria-label="Slide 2"></button>
+                <button class="mtc-slider-dot" type="button" aria-label="Slide 3"></button>
+                <button class="mtc-slider-dot" type="button" aria-label="Slide 4"></button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4. AGRO & INDUSTRIAL TAB -->
+          <div class="mtc-ind-panel" id="tab-agro">
+            <div class="mtc-ind-info">
+              <h3>Agro & Industrial</h3>
+              <p>Agricultural and industrial products require rugged protection for open-air storage, transport, and handling. We manufacture robust, puncture-resistant bags and continuous specialty film rolls.</p>
+              <ul class="mtc-ind-list">
+                <li><span class="chevron"><i class="fa-solid fa-chevron-right"></i></span> Fertilizer & Chemical Heavy-Duty Bags</li>
+                <li><span class="chevron"><i class="fa-solid fa-chevron-right"></i></span> Seed Bags & Agro Packaging</li>
+                <li><span class="chevron"><i class="fa-solid fa-chevron-right"></i></span> Form-Fill-Seal Continuous LD Rolls</li>
+                <li><span class="chevron"><i class="fa-solid fa-chevron-right"></i></span> High-Barrier Specialty Film Rolls</li>
+                <li><span class="chevron"><i class="fa-solid fa-chevron-right"></i></span> Heavy-Duty Industrial Liners</li>
+              </ul>
+              <a href="product.html?category=ld-roll" class="mtc-ind-btn">
+                View More <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+            <div class="mtc-ind-visual">
+              <div class="mtc-slider-container">
+                <img src="./assets/img/ld_roll-removebg-preview.png" alt="LD Rolls" class="mtc-slider-img active" loading="lazy">
+                <img src="./assets/img/ldr-removebg-preview.png" alt="LD Roll Stock" class="mtc-slider-img" loading="lazy">
+                <img src="./assets/img/hm_bags_-removebg-preview.png" alt="Heavy Duty Bags" class="mtc-slider-img" loading="lazy">
+                <img src="./assets/img/pp_bags-removebg-preview.png" alt="Industrial Bags" class="mtc-slider-img" loading="lazy">
+              </div>
+              <div class="mtc-slider-dots">
+                <button class="mtc-slider-dot active" type="button" aria-label="Slide 1"></button>
+                <button class="mtc-slider-dot" type="button" aria-label="Slide 2"></button>
+                <button class="mtc-slider-dot" type="button" aria-label="Slide 3"></button>
+                <button class="mtc-slider-dot" type="button" aria-label="Slide 4"></button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 5. OTHERS TAB -->
+          <div class="mtc-ind-panel" id="tab-others">
+            <div class="mtc-ind-info">
+              <h3>Others</h3>
+              <p>In addition to food and textiles, we supply custom packaging for high-volume retail essentials, religious items, detergents, stationery, and hardware, customized to demanding barrier needs.</p>
+              <ul class="mtc-ind-list">
+                <li><span class="chevron"><i class="fa-solid fa-chevron-right"></i></span> Detergent Powder Stand-up Pouches</li>
+                <li><span class="chevron"><i class="fa-solid fa-chevron-right"></i></span> Viboothi & Pooja Offering Packaging</li>
+                <li><span class="chevron"><i class="fa-solid fa-chevron-right"></i></span> Transparent PVC Zipper Pouches</li>
+                <li><span class="chevron"><i class="fa-solid fa-chevron-right"></i></span> Fireworks & Matches Packaging</li>
+                <li><span class="chevron"><i class="fa-solid fa-chevron-right"></i></span> Cosmetics, Stationery & Hardware Bags</li>
+                <li><span class="chevron"><i class="fa-solid fa-chevron-right"></i></span> Custom Multi-Color Printed Packaging</li>
+              </ul>
+              <a href="product.html?category=pet-pouches" class="mtc-ind-btn">
+                View More <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+            <div class="mtc-ind-visual">
+              <div class="mtc-slider-container">
+                <img src="./assets/img/pet pouches.png" alt="Detergent PET Pouches" class="mtc-slider-img active" loading="lazy">
+                <img src="./assets/img/pvc-transparent-pouch-removebg-preview.png" alt="PVC Pouches" class="mtc-slider-img" loading="lazy">
+                <img src="./assets/img/pvcpouches2.png" alt="Stationery Packing" class="mtc-slider-img" loading="lazy">
+                <img src="./assets/img/custom_printed_milk_cutout.png" alt="Custom Printed Pouches" class="mtc-slider-img" loading="lazy">
+              </div>
+              <div class="mtc-slider-dots">
+                <button class="mtc-slider-dot active" type="button" aria-label="Slide 1"></button>
+                <button class="mtc-slider-dot" type="button" aria-label="Slide 2"></button>
+                <button class="mtc-slider-dot" type="button" aria-label="Slide 3"></button>
+                <button class="mtc-slider-dot" type="button" aria-label="Slide 4"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Faded Watermark Heading -->
+        <p class="mtc-ind-watermark">INDUSTRIES WE SERVE</p>
+      </div>
     </div>
-  </div>
-  <div class="minicontain">
-    <div class="subminicontain">
-      <div class="card">
-        <div class="c1">
-          <img src="./assets/photoroom/bread cover 1.jpg" alt="" />
-        </div>
-        <div class="c2">
-          <h2>LD Bags</h2>
-          <p></p>
-          <p id="te">
-            LD bags, made from Low-Density Polyethylene (LDPE), are flexible,
-            durable, and water-resistant, perfect for packaging food and
-            textiles. They are recyclable, with efforts underway to improve
-            their eco-friendliness.
-          </p>
-        </div>
-      </div>
-      <div class="card">
-        <div class="c1">
-          <img src="./assets/photoroom/salt cover.jpg" alt="" />
-        </div>
-        <div class="c2">
-          <h2>HM Bags</h2>
-          <p></p> 
-          <p id="te">
-            HM bags, made from High Molecular High-Density Polyethylene
-            (HM-HDPE), are strong, durable, and resistant to punctures and
-            tears. They are commonly used for heavy-duty packaging and can be
-            recycled.
-          </p>
-        </div>
-      </div>
-      <div class="card">
-        <div class="c1">
-          <img src="./assets/infra/ld roll2.jpg" alt="" />
-        </div>
-        <div class="c2">
-          <h2>LD Roll</h2>
-          <p></p>
-          <p id="te">
-            LD rolls refer to rolls of Low-Density Polyethylene (LDPE) film,
-            known for their flexibility, clarity, and moisture resistance.
-            They are used for various applications such as packaging,
-            wrapping, and protecting goods during transit.
-          </p>
-        </div>
-      </div>
-      <div class="card">
-        <div class="c1">
-          <img src="./assets/photoroom/devinity product covers.jpg" alt="" />
-        </div>
-        <div class="c2">
-          <h2>PP Bags</h2>
-          <p></p>
-          <p id="te">
-            PP bags, made from polypropylene, are durable and
-            moisture-resistant, ideal for packaging food, textiles, and
-            various products. They are recyclable and come in woven and
-            non-woven varieties for different packaging needs.
-          </p>
-        </div>
-      </div>
-      <div class="card">
-        <div class="c1">
-          <img src="./assets/photoroom/detergent bags.jpg" alt="" />
-        </div>
-        <div class="c2">
-          <h2>PET Pouches</h2>
-          <p></p>
-          <p id="te">
-            PET pouches are clear, strong, and provide moisture and oxygen
-            barrier properties, making them ideal for packaging. They preserve
-            product freshness and ensure high visibility of contents.
-          </p>
-        </div>
-      </div>
-      <div class="card">
-        <div class="c1">
-          <img src="./assets/img/boppbag.png" alt="" />
-        </div>
-        <div class="c2">
-          <h2>BOPP Bags</h2>
-          <p></p>
-          <p id="te">
-            BOPP bags, made from Biaxially Oriented Polypropylene, are
-            durable, transparent, and resistant to moisture and oils, commonly
-            used for packaging snacks, textiles, and various retail products.
-          </p>
-        </div>
-      </div>
-      <div class="card">
-        <div class="c1">
-          <img src="./assets/img/pvc.webp" alt="" />
-        </div>
-        <div class="c2">
-          <h2>PVC Pouches</h2>
-          <p></p>
-          <p id="te">
-            PVC bags, made from Polyvinyl Chloride, are durable and
-            moisture-resistant, commonly used for packaging textiles,
-            cosmetics, and stationery due to their clarity and effective
-            product display capabilities.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
+  </section>
+
   <div class="contact">
     <div class="subcontact">
       <div class="subccon">
@@ -543,6 +756,7 @@
       <a href="">Bobby Packaging</a>
     </div>
   </div>
+  <script src="./assets/js/product-showcase.js"></script>
 </body>
 
 </html>

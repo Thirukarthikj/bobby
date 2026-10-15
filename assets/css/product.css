@@ -983,8 +983,11 @@ padding-top: 20px;
     
     transform-origin: 0% 0%;
     transform: translate(-100%, 0);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
     
-    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0), opacity 0.3s ease, visibility 0.3s ease;
   }
   
   #menu li
@@ -1012,6 +1015,9 @@ padding-top: 20px;
   #menuToggle input:checked ~ ul
   {
     transform: none;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
   }
     .whatsapp-icon {
         position: fixed;
